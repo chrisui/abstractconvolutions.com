@@ -1,0 +1,19 @@
+{
+  "name": "abstractconvolutions.com",
+  "version": "1.0.0",
+  "description": "Personal site of [Chris Pearce](https://chrispearce.co), Software Engineering & Product.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1",
+    "@sherby/eleventy-plugin-files-minifier": "^1.1.1"
+  }
+}
