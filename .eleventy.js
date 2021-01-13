@@ -3,11 +3,11 @@ const eleventyPluginFilesMinifier = require("@sherby/eleventy-plugin-files-minif
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/assets');
   eleventyConfig.addPlugin(eleventyPluginFilesMinifier);
-  
+
   return {
     dir: {
       input : 'src',
-      output: 'dist'
+      output: 'docs'
     },
     passthroughFileCopy: true
   };
